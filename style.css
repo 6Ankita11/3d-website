@@ -3,6 +3,9 @@
     padding:0;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    overflow-x:hidden;
+}
 .header .content-box
 {
     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img.jpg);
@@ -125,4 +128,98 @@ h1::after{
 }
 .services .col-md-3:hover span{
     color:#fff;
+}
+
+/* *************************** FEATURE***************************** */
+.feature h2{
+    margin-top:130px;
+}
+.feature h2::after{
+    content:'';
+    background:#1998c8;
+    height:3px;
+    width:100px;
+    display:block;
+    margin:10px auto 50px;
+    position:absolute;
+    left:17px;
+}
+.feature ul{
+    margin-top:30px;
+    margin-left:50px;
+    list-style-type: none;
+}
+.feature ul li{
+    line-height: 40px;
+    font-size:14px;
+    position:relative;
+}
+.feature ul li::after{
+    content:'';
+    height:7px;
+    width:7px;
+    background: #1998c8;
+    transform:rotate(45deg);
+    position: absolute;
+    top:17px;
+    left:-25px;
+}
+.feature img
+{
+    margin-top:130px;
+}
+/* ******************FOOTER************************* */
+.footer h1{
+    padding-top:50px;
+}
+.contact-form
+{
+    padding:15px;
+}
+.form-control
+{
+    box-shadow:none!important;
+    border:none!important;
+    border-radius:0!important;
+}
+::placeholder
+{
+    font-size: 12px;
+}
+.contact-form button{
+    border:none!important;
+    background:#1998c8!important;
+    box-shadow: none!important;
+    border-radius: 0!important;
+}
+.contact-info .follow
+{
+   background-color: #fff;
+   padding:8px;
+   margin:15px;
+}
+.contact-info .fa{
+    margin:10px;
+    font-size:20px!important;
+    color:#1998c8!important;
+    font-weight:bold;
+    padding-right: 20px;
+}
+.contact-info span{
+    font-size:14px;
+
+}
+.copyright
+{
+    font-size:14px;
+    text-align: center;
+}
+.fa-heart-o
+{
+    color:#1998c8;
+    font-size:17px;
+    padding:2px;
+}
+.service,.feature,.footer{
+    margin-top:10%;
 }

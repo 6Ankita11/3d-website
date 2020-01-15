@@ -3,7 +3,7 @@
     padding:0;
     font-family: 'Poppins', sans-serif;
 }
-.content-box
+.header .content-box
 {
     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img.jpg);
     background-size:cover;
@@ -23,7 +23,7 @@
 }
 .menu button{
     padding:5px 20px;
-    background:#ff4d73;
+    background:#1998c8;
     color:#fff;
     font-size:16px;
     border:0;
@@ -41,4 +41,88 @@
     color:#fff;
     margin:16% auto 0;
     text-align: center;
+}
+.banner-text h2{
+    font-size:64px;
+    margin-top:40px;
+}
+.banner-text p{
+    font-size:14px;
+    margin: 20px 0 50px;
+}
+.banner-text a{
+    text-decoration: none!important;
+    color:#fff;
+    border:1px solid #1998c8;
+    display:block;
+    padding:10px;
+    width:180px;
+    margin:auto;
+    background:#1998c8;
+    transition: 0.5s;
+    
+}
+.banner-text a:hover{
+    background:transparent;
+    color:#fff;
+}
+
+
+/* ****************** SERVICE ********************** */
+.content-box{
+    background:#f4f3ff;
+    height:100vh;
+    width:100%;
+}
+h1{
+    text-align:center;
+    padding-top:100px;
+}
+h1::after{
+    content:'';
+    background:#1998c8;
+    height:3px;
+    width:120px;
+    display:block;
+    margin:20px auto 50px;
+}
+.services .icon
+{
+    font-size:30px;
+    margin:20px auto;
+    padding:18px;
+    height:70px;
+    width:70px;
+    border:1px solid #1998c8;
+    border-radius:50%;
+    color:#1998c8;
+}
+.services{
+    font-size: 12px;
+    margin-top:10px;
+    color:#777;
+    padding:20px;
+}
+.services span{
+    color:#1998c8;
+    transition:.5s;
+}
+.services .col-md-3:hover
+{
+    background:#1998c8;
+    cursor:pointer;
+    color:#fff;
+    box-shadow:-5px 5px 10px 0 rgba(0,0,0,0.4);
+    transition:.5s;
+}
+.services .col-md-3:hover .icon{
+    border:1px solid #fff;
+    color:#fff;
+
+}
+.services .col-md-3:hover p{
+    color:#fff;
+}
+.services .col-md-3:hover span{
+    color:#fff;
 }
